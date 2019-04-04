@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Spinner" customModule="PrecisionDev" customModuleProvider="target">
+            <connections>
+                <outlet property="spinner" destination="ec1-We-DXu" id="pN5-2e-dW7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rPm-af-HSM">
+            <rect key="frame" x="0.0" y="0.0" width="41" height="41"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="ec1-We-DXu">
+                    <rect key="frame" x="10" y="10" width="21" height="21"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="0.36097171900000002" green="0.36097171900000002" blue="0.36097171900000002" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ec1-We-DXu" firstAttribute="leading" secondItem="rPm-af-HSM" secondAttribute="leading" constant="10" id="bqE-3j-3h0"/>
+                <constraint firstAttribute="bottom" secondItem="ec1-We-DXu" secondAttribute="bottom" constant="10" id="efR-V5-fHa"/>
+                <constraint firstItem="ec1-We-DXu" firstAttribute="top" secondItem="rPm-af-HSM" secondAttribute="top" constant="10" id="jOq-EH-2iB"/>
+                <constraint firstAttribute="trailing" secondItem="ec1-We-DXu" secondAttribute="trailing" constant="10" id="tj8-jW-mOg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="qzA-BS-3lN"/>
+            <point key="canvasLocation" x="52.799999999999997" y="48.575712143928037"/>
+        </view>
+    </objects>
+</document>
